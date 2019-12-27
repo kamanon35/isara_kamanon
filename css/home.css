@@ -1,1 +1,63 @@
 @charset "UTF-8";
+
+/* top-bg */
+
+.top-bg {
+  background-image: url(../images/mainsp.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 40vh;
+}
+.top-bg p {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.top-main-box {
+  text-align: center;
+  padding-top: 20px;
+}
+.top-main-box img {
+  width: 80%;
+  margin: 20px 0 40px 0;
+}
+.top-main-isara-title, .top-main-isara-site-name {
+  font-size: 1.7rem;
+}
+.top-main-isara-site-name {
+  margin-top: -5px;
+}
+
+/* isara-info-bg */
+.isara-info-bg {
+  background: #ffbe52;
+  min-height: 100vh;
+}
+.isara-info {
+  color: white;
+  font-size: 1.7rem;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+.isara-info-annotation {
+  color: #ff6a6a;
+  background: white;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+.contact-form-jump {
+  background: #ff6a6a;
+  margin: 20px 20px 0 20px;
+  border-radius: 50px;
+  padding: 10px 20px 10px 20px;
+}
+.contact-form-jump a {
+  color: white;
+  font-size: 2.5rem;
+}
+.no5-students-info, .no6-students-info, .no7-students-info {
+  margin: 20px 10px 0 10px;
+  text-align: center;
+}
+.no5-students-info p, .no6-students-info p, .no7-students-info p {
+  letter-spacing: -.1rem;
+}
