@@ -10,7 +10,7 @@
 }
 .top-bg p {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .top-main-box {
   text-align: center;
@@ -30,19 +30,19 @@
 /* isara-info-bg */
 .isara-info-bg {
   background: #ffbe52;
-  min-height: 100vh;
+  min-height: 50vh;
 }
 .isara-info {
   color: white;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   text-align: center;
   padding: 20px 0 20px 0;
 }
 .isara-info-annotation {
   color: #ff6a6a;
   background: white;
-  border-radius: 20px;
-  margin-top: 15px;
+  border-radius: 5px;
+  margin: 15px 3px 0 3px;
 }
 .contact-form-jump {
   background: #ff6a6a;
@@ -52,12 +52,61 @@
 }
 .contact-form-jump a {
   color: white;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
 }
 .no5-students-info, .no6-students-info, .no7-students-info {
   margin: 20px 10px 0 10px;
-  text-align: center;
 }
-.no5-students-info p, .no6-students-info p, .no7-students-info p {
-  letter-spacing: -.1rem;
+.isara-info-button {
+  margin-top: 20px;
+}
+
+/* introduction */
+.introduction {
+  min-height: 80vh;
+  padding: 20px 20px;
+  text-align: center;
+  background-image: url(../images/introbottom.jpg);
+  background-position: center;
+  background-size: contain;
+}
+.introduction-title {
+  margin-top: 20px;
+  padding: 20px 0;
+  position: relative;
+}
+.introduction-title h2 {
+  line-height: 2;
+  letter-spacing: .2rem;
+}
+.introduction .container {
+  margin-top: 40px;
+}
+.introduction .container p {
+  margin-bottom: 25px;
+  font-size: 1.5rem;
+}
+
+/* about */
+.about {
+  min-height: 100vh;
+  background: #f5e2bb;
+}
+.about-circle-box {
+  position: relative;
+  top: -40px;
+  display: inline-block;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #ffbe52;
+}
+.about-circle {
+  color: white;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }

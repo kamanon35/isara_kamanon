@@ -6,17 +6,56 @@ html {
   /* ルートのフォントサイズを10pxに設定 */
   font-size: 62.5%;
 }
-
 body {
-  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+  font-family: "ヒラギノ角ゴ Pro W3 Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic", sans-serif;
   background: #fff;
+  font-weight: 600;
 }
-
 a {
   text-decoration: none;
 }
 img {
   max-width: 100%;
+}
+p {
+  font-weight: normal;
+}
+.btn {
+  padding: 3px 8px;
+  display: inline-block;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.fa-twitter, .fa-thumbs-up {
+  margin-right: 5px;
+}
+.btn-twitter {
+  background: #4dbdec;
+}
+.btn-thums-up, .btn-share {
+  background: #1794c9;
+}
+.underline {
+  border-bottom: 8px #ebb94d solid;
+}
+.angle-bracket {
+  width: 25px;
+  height: 25px;
+}
+.left-angle-bracket {
+  border-top: 4px #ebb94d solid;
+  border-left: 4px #ebb94d solid;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.right-angle-bracket {
+  border-bottom: 4px #ebb94d solid;
+  border-right: 4px #ebb94d solid;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 /* header */
