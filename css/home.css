@@ -78,6 +78,7 @@
 .introduction-title h2 {
   line-height: 2;
   letter-spacing: .2rem;
+  font-size: 1.65rem;
 }
 .introduction .container {
   margin-top: 40px;
@@ -89,24 +90,65 @@
 
 /* about */
 .about {
-  min-height: 100vh;
+  min-height: 110vh;
   background: #f5e2bb;
+  text-align: center;
+  padding: 0 20px;
 }
 .about-circle-box {
   position: relative;
   top: -40px;
   display: inline-block;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.about-circle {
   width: 80px;
   height: 80px;
   border-radius: 50%;
   background: #ffbe52;
-}
-.about-circle {
   color: white;
   font-size: 1.3rem;
   display: flex;
   align-items: center;
   justify-content: center;
-
+}
+.about-title {
+  padding: 20px 0;
+  position: relative;
+}
+.about-title h2 {
+  line-height: 2;
+  letter-spacing: .2rem;
+  font-size: 1.65rem;
+}
+.about-title + p {
+  font-size: 1.45rem;
+  letter-spacing: .2rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.about .container {
+  height: 47vh;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.about-description-title h3 {
+  margin-top: 15px;
+  font-size: 1.45rem;
+  letter-spacing: .2rem;
+}
+.about-description-inner-box {
+  height: 80px;
+  margin-top: 20px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.about-description-img {
+  height: 30px;
+}
+.about-description-txt {
+  margin-top: 5px;
 }

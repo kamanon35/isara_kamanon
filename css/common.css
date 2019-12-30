@@ -57,6 +57,10 @@ p {
   bottom: 0;
   right: 0;
 }
+.description-box {
+  background: white;
+  border: 2px #ebb94d solid;
+}
 
 /* header */
 header {
