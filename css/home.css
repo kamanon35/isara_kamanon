@@ -3,9 +3,7 @@
 /* top-bg */
 
 .top-bg {
-  background-image: url(../images/mainsp.jpg);
-  background-position: center;
-  background-size: cover;
+  background: url(../images/mainsp.jpg) center/cover;
   min-height: 40vh;
 }
 .top-bg p {
@@ -151,4 +149,30 @@
 }
 .about-description-txt {
   margin-top: 5px;
+}
+
+/* aboutsecond */
+.aboutsecond {
+  background-image: url(../images/aboutsecondbgsp.jpg);
+  background-size: cover;
+  padding: 40px 0;
+  text-align: center;
+  min-height: 100vh;
+}
+.aboutsecond h2, .aboutsecond p {
+  color: white;
+  letter-spacing: .2rem;
+}
+.aboutsecond-title {
+  font-size: 1.8rem;
+}
+.aboutsecond .txt {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 0 20px;
+  letter-spacing: .01rem;
+}
+.aboutsecond .txt span {
+  color: #ffbe52;
 }
