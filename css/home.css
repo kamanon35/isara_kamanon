@@ -88,7 +88,7 @@
 
 /* about */
 .about {
-  min-height: 110vh;
+  min-height: 90vh;
   background: #f5e2bb;
   text-align: center;
   padding: 0 20px;
@@ -155,11 +155,11 @@
 .aboutsecond {
   background-image: url(../images/aboutsecondbgsp.jpg);
   background-size: cover;
-  padding: 40px 0;
+  padding: 40px 0 20px 0;
   text-align: center;
-  min-height: 100vh;
+  min-height: 80vh;
 }
-.aboutsecond h2, .aboutsecond p {
+.aboutsecond > h2, .aboutsecond > p {
   color: white;
   letter-spacing: .2rem;
 }
@@ -175,4 +175,60 @@
 }
 .aboutsecond .txt span {
   color: #ffbe52;
+}
+.aboutsecond .container {
+  margin: 40px 30px;
+}
+.aboutsecond-description-box {
+  background: white;
+  height: 15vh;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px 50px 20px 50px;
+}
+.aboutsecond-step {
+  background: #ffbe52;
+  color: white;
+  border-radius: 5px;
+  padding: 3px 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+  letter-spacing: .2rem;
+}
+.aboutsecond-description p {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 12px;
+  letter-spacing: .1rem;
+}
+
+/* aboutthaad */
+.aboutthaad {
+  min-height: 13vh;
+  background: #016ea9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.aboutthaad > p {
+  color: white;
+  font-size: 1.4rem;
+}
+.aboutthaad span {
+  color: #ffbe52;
+}
+
+/* isaralearning */
+.isaralearning {
+  min-height: 50vh;
+  text-align: center;
+  padding: 40px 20px;
+}
+.isaralearning > h2 {
+  font-size: 1.8rem;
+}
+.isaralearning > p {
+  font-size: 1.5rem;
+  margin-top: 40px;
 }
