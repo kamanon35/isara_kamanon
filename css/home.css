@@ -101,15 +101,9 @@
   justify-content: center;
 }
 .about-circle {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
   background: #ffbe52;
   color: white;
   font-size: 1.3rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .about-title {
   padding: 20px 0;
@@ -221,7 +215,8 @@
 
 /* isaralearning */
 .isaralearning {
-  min-height: 50vh;
+  /* min-height: 50vh; */
+  min-height: 100vh;
   text-align: center;
   padding: 40px 20px;
 }
@@ -231,4 +226,12 @@
 .isaralearning > p {
   font-size: 1.5rem;
   margin-top: 40px;
+}
+.isaralearning-description-container {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+}
+.isaralearning-description-circle img {
+  height: 60px;
 }
