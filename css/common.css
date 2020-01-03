@@ -40,8 +40,8 @@ p {
   border-bottom: 8px #ebb94d solid;
 }
 .angle-bracket {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
 }
 .left-angle-bracket {
   border-top: 4px #ebb94d solid;
@@ -69,6 +69,21 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.txts {
+  font-weight: bold;
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
+}
+.txtm {
+  font-size: 1.5rem;
+}
+.txtl {
+  font-size: 1.7rem;
+}
+.yellowtxt {
+  color: #ffbe52;
+  font-weight: bold;
 }
 
 /* header */

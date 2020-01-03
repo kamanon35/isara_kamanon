@@ -89,7 +89,7 @@
 /* about */
 .about {
   min-height: 90vh;
-  background: #f5e2bb;
+  background: #f9efdb;
   text-align: center;
   padding: 0 20px;
 }
@@ -173,6 +173,9 @@
 .aboutsecond .container {
   margin: 40px 30px;
 }
+.aboutsecond-description p {
+  margin-top: 12px;
+}
 .aboutsecond-description-box {
   background: white;
   height: 15vh;
@@ -188,12 +191,6 @@
   font-weight: bold;
   font-size: 1.2rem;
   letter-spacing: .2rem;
-}
-  .txts {
-  font-weight: bold;
-  font-size: 1.2rem;
-  margin-top: 12px;
-  letter-spacing: .1rem;
 }
 
 /* aboutthaad */
@@ -215,23 +212,94 @@
 
 /* isaralearning */
 .isaralearning {
-  /* min-height: 50vh; */
-  min-height: 100vh;
+  min-height: 30vh;
   text-align: center;
   padding: 40px 20px;
 }
 .isaralearning > h2 {
   font-size: 1.8rem;
+  margin-bottom: 40px;
 }
 .isaralearning > p {
   font-size: 1.5rem;
-  margin-top: 40px;
 }
 .isaralearning-description-container {
   display: flex;
-  margin: 0 auto;
+  margin: 3px auto 0;
   width: 80%;
 }
 .isaralearning-description-circle img {
   height: 60px;
+}
+.isaralearning .txts {
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+/* merit */
+.merit {
+  min-height: 200vh;
+  background: #f9efdb;
+  padding: 0 15px;
+  overflow: hidden;
+}
+.merit-title {
+  position: relative;
+  padding: 20px 0;
+  margin-top: 50px;
+  text-align: center;
+}
+.merit .txts {
+  font-size: 1.6rem;
+}
+.merit-title > h2 {
+  margin-top: 20px;
+  font-size: 1.8rem;
+}
+.merit-img {
+  height: 120px;
+  margin-top: 20px;
+}
+.learnfromfreelancer{
+  background: url(../images/learnfromfreelancer.jpg) center/cover;
+}
+.learndetial p {
+  margin-top: 10px;
+}
+.learndetial > .yellowtxt {
+  text-align: center;
+}
+.learndetial .txts {
+  padding: 0 20px;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+.learnfromprojects {
+  background: url(../images/learnfromprojects.jpg) center/cover;
+}
+.actuallyfree {
+  background: url(../images/actuallyfree.jpg) center/cover;
+}
+.merit .container {
+  height: 24vh;
+  margin-top: 30px;
+  text-align: center;
+}
+.merit .container .yellowtxt {
+  margin-top: 15px;
+  font-size: 1.8rem;
+}
+.merit .container .txtl {
+  margin-top: 15px;
+  padding: 0 10px;
+}
+.merit-description {
+  font-size: 1.1rem;
+  letter-spacing: .1;
+  padding: 0 10px;
+}
+.meritbottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.1rem;
 }
