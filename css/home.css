@@ -238,7 +238,7 @@
 
 /* merit */
 .merit {
-  min-height: 200vh;
+  min-height: 157vh;
   background: #f9efdb;
   padding: 0 15px;
   overflow: hidden;
@@ -281,7 +281,7 @@
   background: url(../images/actuallyfree.jpg) center/cover;
 }
 .merit .container {
-  height: 24vh;
+  height: 25vh;
   margin-top: 30px;
   text-align: center;
 }
@@ -297,9 +297,60 @@
   font-size: 1.1rem;
   letter-spacing: .1;
   padding: 0 10px;
+  margin-top: 10px;
 }
 .meritbottom {
   text-align: center;
   margin-top: 20px;
   font-size: 1.1rem;
+}
+
+/* establishment-member */
+.establishment-member {
+  background: url(../images/teacherbgsp.jpg) center/cover;
+  min-height: 200vh;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  padding: 0 20px;
+}
+.establishment-member > h2 > .fa-id-card {
+  margin-right: 2px;
+}
+.establishment-member > h2 {
+  margin-top: 70px;
+  font-size: 2rem;
+}
+.establishment-member > .txts {
+  margin-top: 45px;
+}
+.establishment-member .container {
+  min-height: 80vh;
+  margin-top: 120px;
+}
+.teacherbox {
+  height: 30vh;
+  border: 3px white solid;
+  padding: 0 8px;
+  margin-bottom: 130px;
+}
+.teacherbox img {
+  border-radius: 50%;
+  height: 120px;
+  position: relative;
+  top: -80px;
+}
+.teacherbox p {
+  position: relative;
+  top: -70px;
+}
+.teacher-name {
+  margin-top: 12px;
+}
+.establishment-member .txts {
+  font-weight: normal;
+}
+.teacher-description {
+  text-align: left;
+  margin-top: 10px;
 }
