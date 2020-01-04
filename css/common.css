@@ -57,14 +57,27 @@ p {
   bottom: 0;
   right: 0;
 }
+.left-angle-bracket-white {
+  border-top: 4px white solid;
+  border-left: 4px white solid;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.right-angle-bracket-white {
+  border-bottom: 4px white solid;
+  border-right: 4px white solid;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 .description-box {
   background: white;
   border: 2px #ebb94d solid;
 }
-
 .circle {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   display: flex;
   align-items: center;

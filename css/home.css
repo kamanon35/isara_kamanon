@@ -95,8 +95,7 @@
 }
 .about-circle-box {
   position: relative;
-  top: -40px;
-  display: inline-block;
+  top: -30px;
   display: flex;
   justify-content: center;
 }
@@ -223,17 +222,25 @@
 .isaralearning > p {
   font-size: 1.5rem;
 }
+/* .isaralearning-description-container {
+display: flex;
+margin: 10px auto 0;
+width: 80%;
+} */
 .isaralearning-description-container {
-  display: flex;
-  margin: 3px auto 0;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
   width: 80%;
+  margin: 0 auto;
 }
-.isaralearning-description-circle img {
+.isaralearning-description-container img {
+  margin-top: 20px;
   height: 60px;
 }
 .isaralearning .txts {
   font-size: 1.2rem;
-  margin-top: 5px;
+  margin-top: 20px;
 }
 
 /* merit */
@@ -332,7 +339,12 @@
   height: 30vh;
   border: 3px white solid;
   padding: 0 8px;
+}
+.teacher-no1, .teacher-no2, .teacher-no3 {
   margin-bottom: 130px;
+}
+.teacher-no4 {
+  margin-bottom: 20px;
 }
 .teacherbox img {
   border-radius: 50%;
@@ -353,4 +365,79 @@
 .teacher-description {
   text-align: left;
   margin-top: 10px;
+}
+
+/* qa */
+.qa {
+  min-height: 25vh;
+  background: #ffbe52;
+  text-align: center;
+  padding: 0 10px;
+}
+.qa-circle-box {
+  margin: 20px 0 10px;
+  text-align: center;
+  display: inline-block;
+}
+.qa-circle {
+  background: white;
+  color: #ffbe52;
+  display: inline-block;
+  text-align: center;
+}
+.qa-title {
+  position: relative;
+}
+.qa-title > h2 {
+  color: white;
+  padding: 20px 0;
+}
+.bottom-arrow {
+  background: white;
+  height: 0px;
+  width: 0%;
+  border-left: 2.5rem transparent solid;
+  border-right: 2.5rem transparent solid;
+  border-top: 2.5rem #ffbe52 solid;
+  margin: 0 auto;
+}
+
+/* answer */
+.answer {
+  min-height: 100vh;
+  margin-top: 10px;
+  text-align: center;
+  padding: 0 10px;
+}
+.answer > .txtl {
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+.answer > .annotation {
+  font-weight: normal;
+  margin: 30px 0 30px 0;
+}
+.corp-message-box {
+  height: 20vh;
+  display: flex;
+  margin-bottom: 40px;
+}
+.corp-img {
+  border: 2px #ffbe52 solid;
+  margin-top: 5px;
+}
+.corp-message-left {
+  width: 30%;
+  height: 100px;
+}
+.corp-message-right {
+  width: 70%;
+  padding-left: 10px;
+  text-align: left;
+}
+.corp-message-right > .txts {
+  font-weight: normal;
+  font-size: 1.2rem;
+  text-decoration: underline;
 }
