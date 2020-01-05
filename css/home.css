@@ -575,13 +575,14 @@ width: 80%;
   font-size: 2rem;
   text-align: center;
   font-weight: bold;
-}
-.further-privilege {
-  padding: 40px 40px 50px;
+  background: #ffbe52;
+  position: relative;
+  top: 3vh;
+  margin: 20px 40px 0 40px;
 }
 .further-privilege-box {
   display: flex;
-  padding: 30px 40px;
+  padding: 20px 40px 20px 40px;
 }
 .privilege-circle {
   background: white;
@@ -595,4 +596,5 @@ width: 80%;
 }
 .entry-privilege .container {
   border: 2px white solid;
+  padding: 20px 10px 20px 10px;
 }
