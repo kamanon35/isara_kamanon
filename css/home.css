@@ -404,7 +404,7 @@ width: 80%;
 
 /* answer */
 .answer {
-  min-height: 100vh;
+  min-height: 95vh;
   margin-top: 10px;
   text-align: center;
   padding: 0 10px;
@@ -440,4 +440,159 @@ width: 80%;
   font-weight: normal;
   font-size: 1.2rem;
   text-decoration: underline;
+}
+
+/* learnable-detail */
+.learnable-detail {
+  background: url(../images/classbgsp.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 40px 0;
+  min-height: 100vh;
+  padding: 50px 20px 30px;
+}
+.learnable-detail > .txts {
+  margin: 20px 0 30px 0;
+}
+.learnable-detail > h2, .learnable-detail > .txts {
+  color: white;
+}
+.learnable-detail .container {
+  min-height: 30vh;
+  background: #016ea9;
+  padding: 0 3px;
+}
+.learnable-detail .container .txtl {
+  color: white;
+  font-weight: bold;
+  padding: 15px 0;
+}
+.learnable-detail-li-item {
+  background: white;
+  color: black;
+  border-bottom: 1px #e5e5e5 dotted;
+  padding: 12px 0;
+  font-size: 1.3rem;
+}
+.learnable-detail-right {
+  margin-top: 20px;
+}
+
+/* learnable-detail-bottom */
+.learnable-detail-bottom {
+  background: #016ea9;
+  min-height: 10vh;
+}
+.learnable-detail-bottom .txtm {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 0;
+  letter-spacing: .2rem;
+}
+
+/* attending-flow */
+.attending-flow {
+  min-height: 60vh;
+  background: white;
+  text-align: center;
+  padding: 0 10px;
+}
+.attending-flow > h2 {
+  padding: 50px 0;
+}
+.attending-flow-box {
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9efdb;
+  padding: 7px 15px;
+  margin-bottom: 5px;
+}
+.attending-flow-left {
+  display: flex;
+  align-items: center;
+}
+.attending-flow-left img {
+  height: 4.5vh;
+}
+.attending-flow-left p {
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* why-bangkok */
+.why-bangkok {
+  background: url(../images/bangkokbgsp.jpg);
+  background-position: right;
+  background-size: cover;
+  min-height: 78vh;
+  color: white;
+  overflow: hidden;
+  padding: 0 90px;
+}
+.why-bangkok > h2 {
+  margin-top: 50px;
+  font-size: 2.5rem;
+  letter-spacing: .3rem;
+  text-align: center;
+}
+.why-bangkok-txts > .txtm {
+  margin: 20px 0;
+  font-size: 1.3rem;
+}
+.why-bangkok-txts > .txts {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+.why-bangkok > .txtl {
+  font-weight: bold;
+}
+
+/* entry-privilege */
+.entry-privilege {
+  min-height: 100vh;
+  overflow: hidden;
+  background: #ffbe52;
+  padding: 0 15px;
+}
+.entry-privilege .fa-gift {
+  margin-right: 2px;
+}
+.entry-privilege > h2 {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 1.8rem;
+  letter-spacing: .1rem;
+}
+.entry-privilege > .txts {
+  text-align: center;
+}
+.further-privilege {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+.further-privilege {
+  padding: 40px 40px 50px;
+}
+.further-privilege-box {
+  display: flex;
+  padding: 30px 40px;
+}
+.privilege-circle {
+  background: white;
+  color: #ffbe52;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+.further-privilege-item-right {
+  margin: 10px 0 0 15px;
+  color: white;
+}
+.entry-privilege .container {
+  border: 2px white solid;
 }

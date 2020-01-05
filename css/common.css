@@ -20,6 +20,9 @@ img {
 p {
   font-weight: normal;
 }
+li {
+  list-style: none;
+}
 .btn {
   padding: 3px 8px;
   display: inline-block;
@@ -97,6 +100,9 @@ p {
 .yellowtxt {
   color: #ffbe52;
   font-weight: bold;
+}
+.f-color-white {
+  color: white;
 }
 
 /* header */
