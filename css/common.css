@@ -25,8 +25,7 @@ li {
 }
 .sns-box {
   display: flex;
-  justify-content: space-between;
-  margin: 10px 100px 0 0;
+  justify-content: center;
 }
 .btn {
   padding: 3px 8px;
@@ -34,6 +33,7 @@ li {
   color: white;
   border-radius: 5px;
   font-size: 1rem;
+  margin-right: 30px;
 }
 .fa-twitter, .fa-thumbs-up {
   margin-right: 5px;
@@ -139,8 +139,13 @@ li {
 
 /* header */
 header {
-  height: 64px;
+  height: 6.4rem;
+  width: 100%;
   display: flex;
+  background: white;
+  position: fixed;
+  top: 0;
+  z-index: 10;
 }
 .header-left {
   height: 100%;
@@ -176,15 +181,17 @@ header {
 
 /* footer */
 footer {
-  min-height: 30vh;
+  min-height: 20vh;
   background: #f2f2f2;
+}
+footer .container {
   padding: 20px 40px 5px 40px;
 }
-footer > p {
+footer .container > p {
   text-align: center;
 }
 .footer-sns {
-  display: flex;
+  margin-top: 20px;
 }
 .producer {
   text-align: center;
