@@ -39,9 +39,14 @@
 }
 .isara-info-annotation {
   color: #ff6a6a;
-  background: white;
   border-radius: 5px;
   margin: 15px 3px 0 3px;
+}
+.isara-info-annotation > span {
+  background: white;
+  padding: 0 10px;
+  border-radius: 5px;
+  line-height: 2;
 }
 .contact-form-jump {
   background: #ff6a6a;
