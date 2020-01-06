@@ -56,7 +56,7 @@
   margin: 20px 10px 0 10px;
 }
 .isara-info-button {
-  margin-top: 20px;
+  padding-left: 40px;
 }
 
 /* introduction */
@@ -554,7 +554,7 @@ width: 80%;
 
 /* entry-privilege */
 .entry-privilege {
-  min-height: 100vh;
+  min-height: 74vh;
   overflow: hidden;
   background: #ffbe52;
   padding: 0 15px;
@@ -597,4 +597,104 @@ width: 80%;
 .entry-privilege .container {
   border: 2px white solid;
   padding: 20px 10px 20px 10px;
+}
+
+/* not-volunteer */
+.not-volunteer {
+  background: url(../images/specialdetailsp.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 55vh;
+  text-align: center;
+  color: white;
+  padding: 40px 10px 50px 10px;
+}
+.not-volunteer-title {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+}
+.not-volunteer-container {
+  position: relative;
+  margin-top: 40px;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+.not-volunteer-container > h2 {
+  font-size: 1.8rem;
+  letter-spacing: .4rem;
+}
+
+/* message */
+.message {
+  min-height: 112vh;
+  background: white;
+  padding: 0 15px;
+}
+.message-title {
+  margin: 40px 0;
+  text-align: center;
+}
+.enjoy-nomad-life {
+  font-weight: bold;
+  text-align: center;
+}
+.message .container {
+  display: flex;
+  flex-direction: column;
+}
+.message-left img {
+  margin: 20px 0 10px;
+}
+
+/* contactform */
+.contactform {
+  min-height: 79vh;
+  background: #ffbe52;
+  text-align: center;
+  overflow: hidden;
+  padding: 0 15px;
+}
+.contactform-title {
+  margin: 40px 0 30px;
+}
+.contactform .fa-file-alt {
+  margin-right: 2px;
+}
+.form-question {
+  height: 10rem;
+}
+.contactform input {
+  height: 5rem;
+}
+.send-button {
+  background: #da6b64;
+  color: white;
+  height: 5rem;
+  width: 100%;
+  font-size: 2.5rem;
+  border-radius: 30px;
+}
+
+/* questions */
+.questions {
+  min-height: 105vh;
+  padding: 0 20px;
+}
+.questions-title {
+  font-size: 2rem;
+  text-align: center;
+  margin: 50px 0 30px;
+}
+.questions .fa-envelope-open {
+  margin-right: 3px;
+}
+.questionslist .fa-question-circle {
+  color: #016ea9;
+}
+.questionslist .txtm {
+  font-weight: bold;
+}
+.panel .fa-angle-down {
+  color: #e5e5e5;
+  font-size: 2.5rem;
 }

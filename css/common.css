@@ -23,6 +23,11 @@ p {
 li {
   list-style: none;
 }
+.sns-box {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 100px 0 0;
+}
 .btn {
   padding: 3px 8px;
   display: inline-block;
@@ -104,6 +109,33 @@ li {
 .f-color-white {
   color: white;
 }
+.mbs{
+  margin-bottom: 10px;
+}
+.mbm {
+  margin-bottom: 20px;
+}
+.mbl {
+  margin-bottom: 40px;
+}
+.input-form {
+  background: white;
+  border-radius: 5px;
+  width: 100%;
+  padding: 0 10px;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+.panel {
+  padding: 5px 10px;
+  border: 1px #ddd solid;
+  min-height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
 
 /* header */
 header {
@@ -140,4 +172,21 @@ header {
   align-self: center;
   color: white;
   font-size: 1.2rem;
+}
+
+/* footer */
+footer {
+  min-height: 30vh;
+  background: #f2f2f2;
+  padding: 20px 40px 5px 40px;
+}
+footer > p {
+  text-align: center;
+}
+.footer-sns {
+  display: flex;
+}
+.producer {
+  text-align: center;
+  margin-top: 40px;
 }
