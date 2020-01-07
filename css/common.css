@@ -136,12 +136,17 @@ li {
   border-radius: 5px;
   margin-bottom: 5px;
 }
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
 
 /* header */
 header {
   height: 6.4rem;
   width: 100%;
   display: flex;
+  justify-content: space-between;
   background: white;
   position: fixed;
   top: 0;
@@ -150,7 +155,6 @@ header {
 .header-left {
   height: 100%;
   padding: 10px;
-  width: 80%;
 }
 .header-title {
   font-weight: bold;
@@ -160,8 +164,8 @@ header {
   height: 30px;
 }
 .header-right {
+  padding: 15px;
   height: 100%;
-  width: 20%;
   background: #da6b64;
   display: flex;
   justify-content: center;
@@ -177,6 +181,8 @@ header {
   align-self: center;
   color: white;
   font-size: 1.2rem;
+  font-weight: normal;
+  text-decoration: underline;
 }
 
 /* footer */
@@ -196,4 +202,12 @@ footer .container > p {
 .producer {
   text-align: center;
   margin-top: 40px;
+}
+
+/* large screen */
+@media screen and (min-width: 768px) {
+
+  header {
+    height: 7.5rem;
+  }
 }

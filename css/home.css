@@ -5,7 +5,7 @@
 .top-bg {
   background: url(../images/mainsp.jpg) center/cover;
   min-height: 40vh;
-  padding-top: 6.4rem;
+  margin-top: 6.4rem;
 }
 .top-bg p {
   font-weight: bold;
@@ -54,6 +54,9 @@
   border-radius: 50px;
   padding: 10px 20px 10px 20px;
 }
+.contact-form-jump a{
+  display: inline-block;
+}
 .contact-form-jump a {
   color: white;
   font-size: 2.3rem;
@@ -68,11 +71,12 @@
 /* introduction */
 .introduction {
   min-height: 80vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
   padding: 20px 20px;
   text-align: center;
   background-image: url(../images/introbottom.jpg);
-  background-position: center;
-  background-size: contain;
 }
 .introduction-title {
   margin-top: 20px;
