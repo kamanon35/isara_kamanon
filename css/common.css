@@ -182,6 +182,9 @@ header {
   font-size: 1.2rem;
   font-weight: normal;
 }
+.header-right-large-screen {
+  display: none;
+}
 
 /* footer */
 footer {

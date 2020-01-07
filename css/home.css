@@ -7,7 +7,7 @@
   min-height: 40vh;
   margin-top: 6.4rem;
 }
-.top-bg p {
+.top-bg .txtl {
   font-weight: bold;
   font-size: 1.8rem;
 }
@@ -707,4 +707,24 @@ width: 80%;
 .panel .fa-angle-down {
   color: #e5e5e5;
   font-size: 2.5rem;
+}
+
+/* large screen */
+@media screen and (min-width: 768px) {
+
+  .top-bg {
+    background: url(../images/main.jpg) center/cover;
+    min-height: 66vh;
+    margin-top: 6.4rem;
+  }
+  .top-main-box .txtl {
+    margin-top: 8rem;
+    font-size: 3rem;
+    line-height: 2;
+  }
+  .top-main-box img {
+    height: 15vh;
+    width: 40vh;
+    margin-top: -5px;
+  }
 }
