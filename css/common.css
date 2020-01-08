@@ -45,6 +45,8 @@ li {
   background: #1794c9;
 }
 .underline {
+  display: inline-block;
+  height: 23px;
   border-bottom: 8px #ebb94d solid;
 }
 .angle-bracket-small {
@@ -107,6 +109,11 @@ li {
 .txtl {
   font-size: 1.7rem;
 }
+.txth2 {
+  line-height: 2;
+  letter-spacing: .2rem;
+  font-size: 1.65rem;
+}
 .yellowtxt {
   color: #ffbe52;
   font-weight: bold;
@@ -140,6 +147,9 @@ li {
   align-items: center;
   border-radius: 5px;
   margin-bottom: 5px;
+}
+.fwb {
+  font-weight: bold;
 }
 
 /* header */
@@ -222,6 +232,16 @@ footer .container > p {
   }
   .angle-bracket-large {
     display: block;
+  }
+  .underline {
+    height: 30px;
+  }
+  .circle {
+    height: 80px;
+    width: 80px;
+  }
+  .txth2 {
+    font-size: 2.6rem;
   }
 
   /* header */

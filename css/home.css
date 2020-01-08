@@ -83,11 +83,6 @@
   padding: 20px 0;
   position: relative;
 }
-.introduction-title h2 {
-  line-height: 2;
-  letter-spacing: .2rem;
-  font-size: 1.65rem;
-}
 .introduction .container {
   margin-top: 40px;
 }
@@ -98,7 +93,7 @@
 
 /* about */
 .about {
-  min-height: 90vh;
+  min-height: 84vh;
   background: #f9efdb;
   text-align: center;
   padding: 0 20px;
@@ -118,34 +113,35 @@
   padding: 20px 0;
   position: relative;
 }
-.about-title h2 {
-  line-height: 2;
-  letter-spacing: .2rem;
-  font-size: 1.65rem;
-}
 .about-title + p {
   font-size: 1.45rem;
   letter-spacing: .2rem;
   font-weight: bold;
   margin-top: 20px;
 }
-.about .container {
-  height: 47vh;
+.about .wrapper .container {
+  height: 44vh;
   margin-top: 25px;
   display: flex;
   flex-direction: column;
 }
 .about-description-title h3 {
-  margin-top: 15px;
+  margin: 15px 0 20px 0;
   font-size: 1.45rem;
   letter-spacing: .2rem;
 }
-.about-description-inner-box {
-  height: 80px;
-  margin-top: 20px;
-  padding: 0 40px;
+.about-description-outer-box {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0 50px;
+  height: 100px;
+}
+.about-description-outer-box .box {
+  width: 50%;
+  margin-bottom: 20px;
+}
+.about-description-outer-box .box-end {
+  width: 100%;
 }
 .about-description-img {
   height: 30px;
@@ -745,27 +741,65 @@ width: 80%;
   }
   .contact-form-jump {
     margin: 50px 70px;
-    height: 30vh;
+    height: 14vh;
     padding: 0;
   }
   .contact-form-jump a {
     font-size: 3rem;
-    line-height: 30vh;
+    line-height: 14vh;
   }
 
   /* introduction */
   .introduction {
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    min-height: 100vh;
   }
   .introduction .wrapper {
     width: 65%;
   }
-  .introduction-title > h2 {
-    font-size: 2.6rem;
+  .txth2-large-screen {
+    display: block;
   }
   .introduction .container p {
     font-size: 2.1rem;
+  }
+  .about-circle {
+    font-size: 1.6rem;
+  }
+
+  /* about */
+  .about {
+    min-height: 127vh;
+  }
+  .about-title {
+    margin: 0 auto;
+    width: 65%;
+  }
+  .about-title + p {
+    font-size: 2rem;
+  }
+  .about-description-title h3 {
+    margin-top: 25px;
+    font-size: 2rem;
+    letter-spacing: .15rem;
+  }
+  .about-description-outer-box {
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .about-description-outer-box .box, .about-description-outer-box .box-end {
+    width: 30vh;
+    height: 25vh;
+  }
+  .box img, .box-end img {
+    height: 12vh;
+  }
+  .about-description-txt {
+    font-size: 1.3rem;
+  }
+  .about .wrapper .container {
+    height: 50vh;
   }
 }
