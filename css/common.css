@@ -47,9 +47,14 @@ li {
 .underline {
   border-bottom: 8px #ebb94d solid;
 }
-.angle-bracket {
+.angle-bracket-small {
   width: 30px;
   height: 30px;
+}
+.angle-bracket-large {
+  width: 50px;
+  height: 50px;
+  display: none;
 }
 .left-angle-bracket {
   border-top: 4px #ebb94d solid;
@@ -207,6 +212,19 @@ footer .container > p {
 
 /* large screen */
 @media screen and (min-width: 768px) {
+
+  /* common */
+  .brrs {
+    display: none;
+  }
+  .angle-bracket-small {
+    display: none;
+  }
+  .angle-bracket-large {
+    display: block;
+  }
+
+  /* header */
 
   header {
     height: 7.5rem;
