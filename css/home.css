@@ -770,7 +770,7 @@ width: 80%;
 
   /* about */
   .about {
-    min-height: 127vh;
+    height: 630px;
   }
   .about-title {
     margin: 0 auto;
@@ -790,16 +790,16 @@ width: 80%;
     margin: 0 auto;
   }
   .about-description-outer-box .box, .about-description-outer-box .box-end {
-    width: 30vh;
-    height: 25vh;
+    width: 150px;
+    margin-top: 20px;
   }
   .box img, .box-end img {
-    height: 12vh;
+    height: 60px;
   }
   .about-description-txt {
     font-size: 1.3rem;
   }
   .about .wrapper .container {
-    height: 50vh;
+    height: 270px;
   }
 }
