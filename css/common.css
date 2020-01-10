@@ -154,7 +154,7 @@ li {
 
 /* header */
 header {
-  height: 63px;
+  height: 65px;
   width: 100%;
   background: white;
   position: fixed;
@@ -242,6 +242,9 @@ footer .container > p {
   }
   .txth2 {
     font-size: 2.6rem;
+  }
+  .txtm {
+    font-size: 2rem;
   }
 
   /* header */

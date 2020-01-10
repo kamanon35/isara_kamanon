@@ -183,8 +183,7 @@
 }
 .aboutsecond-description-box {
   background: white;
-  height: 15vh;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-top: 20px;
   padding: 20px 50px 20px 50px;
 }
@@ -221,12 +220,9 @@
   text-align: center;
   padding: 40px 20px;
 }
-.isaralearning > h2 {
-  font-size: 1.8rem;
-  margin-bottom: 40px;
-}
-.isaralearning > p {
-  font-size: 1.5rem;
+.isaralearning > .txtm {
+  margin-top: 40px;
+  letter-spacing: .1rem;
 }
 .isaralearning-description-container {
   display: grid;
@@ -724,11 +720,13 @@
   }
 
   /* isara-info-bg */
+  .isara-info-bg {
+    height: 560px;
+  }
   .isara-info {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 570px;
   }
   .isara-info p {
     font-size: 2rem;
@@ -740,12 +738,12 @@
   }
   .contact-form-jump {
     margin: 50px 70px;
-    height: 14vh;
+    height: 100px;
     padding: 0;
   }
   .contact-form-jump a {
     font-size: 3rem;
-    line-height: 14vh;
+    line-height: 100px;
   }
 
   /* introduction */
@@ -800,5 +798,52 @@
   }
   .about .wrapper .container {
     height: 270px;
+  }
+
+  /* aboutsecond */
+  .aboutsecond {
+    background-image: url(../images/aboutsecondbg.jpg);
+    background-size: cover;
+    height: 450px;
+  }
+  .aboutsecond-title {
+    font-size: 2.8rem;
+  }
+  .aboutsecond .txt {
+    font-size: 2rem;
+  }
+  .aboutsecond .container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+  }
+  .aboutsecond-step {
+    font-size: 1.5rem;
+  }
+  .aboutsecond-description-box {
+    padding: 20px 20px 30px 20px;
+    margin-right: 20px;
+    height: 180px;
+    width: 360px;
+  }
+  .aboutsecond-description {
+    margin-top: 40px;
+  }
+  .aboutsecond-description .txts {
+    font-size: 1.5rem;
+  }
+
+  /* aboutthaad */
+  .aboutthaad {
+    height: 130px;
+  }
+  .aboutthaad > p {
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+
+  /* isaralearning */
+  .isaralearning {
+    height: 500px;
   }
 }
