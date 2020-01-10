@@ -154,7 +154,7 @@ li {
 
 /* header */
 header {
-  height: 6.4rem;
+  height: 63px;
   width: 100%;
   background: white;
   position: fixed;
@@ -203,7 +203,7 @@ header {
 
 /* footer */
 footer {
-  min-height: 20vh;
+  height: 150px;
   background: #f2f2f2;
 }
 footer .container {
@@ -217,7 +217,7 @@ footer .container > p {
 }
 .producer {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 /* large screen */

@@ -29,7 +29,7 @@
 /* isara-info-bg */
 .isara-info-bg {
   background: #ffbe52;
-  min-height: 50vh;
+  height: 490px;
 }
 .isara-info {
   color: white;
@@ -70,7 +70,7 @@
 
 /* introduction */
 .introduction {
-  min-height: 80vh;
+  height: 630px;
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: contain;
@@ -93,7 +93,7 @@
 
 /* about */
 .about {
-  min-height: 84vh;
+  height: 680px;
   background: #f9efdb;
   text-align: center;
   padding: 0 20px;
@@ -156,7 +156,7 @@
   background-size: cover;
   padding: 40px 0 20px 0;
   text-align: center;
-  min-height: 80vh;
+  height: 710px;
 }
 .aboutsecond > h2, .aboutsecond > p {
   color: white;
@@ -200,7 +200,7 @@
 
 /* aboutthaad */
 .aboutthaad {
-  min-height: 13vh;
+  height: 110px;
   background: #016ea9;
   display: flex;
   justify-content: center;
@@ -217,7 +217,7 @@
 
 /* isaralearning */
 .isaralearning {
-  min-height: 30vh;
+  height: 300px;
   text-align: center;
   padding: 40px 20px;
 }
@@ -228,11 +228,6 @@
 .isaralearning > p {
   font-size: 1.5rem;
 }
-/* .isaralearning-description-container {
-display: flex;
-margin: 10px auto 0;
-width: 80%;
-} */
 .isaralearning-description-container {
   display: grid;
   justify-content: center;
@@ -251,7 +246,7 @@ width: 80%;
 
 /* merit */
 .merit {
-  min-height: 157vh;
+  height: 1270px;
   background: #f9efdb;
   padding: 0 15px;
   overflow: hidden;
@@ -321,7 +316,7 @@ width: 80%;
 /* establishment-member */
 .establishment-member {
   background: url(../images/teacherbgsp.jpg) center/cover;
-  min-height: 200vh;
+  height: 1680px;
   color: white;
   text-align: center;
   overflow: hidden;
@@ -375,7 +370,7 @@ width: 80%;
 
 /* qa */
 .qa {
-  min-height: 25vh;
+  height: 200px;
   background: #ffbe52;
   text-align: center;
   padding: 0 10px;
@@ -410,7 +405,7 @@ width: 80%;
 
 /* answer */
 .answer {
-  min-height: 95vh;
+  height: 770px;
   margin-top: 10px;
   text-align: center;
   padding: 0 10px;
@@ -455,7 +450,7 @@ width: 80%;
   background-size: cover;
   text-align: center;
   padding: 40px 0;
-  min-height: 100vh;
+  height: 1020px;
   padding: 50px 20px 30px;
 }
 .learnable-detail > .txts {
@@ -488,7 +483,7 @@ width: 80%;
 /* learnable-detail-bottom */
 .learnable-detail-bottom {
   background: #016ea9;
-  min-height: 10vh;
+  height: 110px;
 }
 .learnable-detail-bottom .txtm {
   color: white;
@@ -500,7 +495,7 @@ width: 80%;
 
 /* attending-flow */
 .attending-flow {
-  min-height: 60vh;
+  height: 480px;
   background: white;
   text-align: center;
   padding: 0 10px;
@@ -535,7 +530,7 @@ width: 80%;
   background: url(../images/bangkokbgsp.jpg);
   background-position: right;
   background-size: cover;
-  min-height: 78vh;
+  height: 590px;
   color: white;
   overflow: hidden;
   padding: 0 90px;
@@ -560,7 +555,7 @@ width: 80%;
 
 /* entry-privilege */
 .entry-privilege {
-  min-height: 74vh;
+  height: 600px;
   overflow: hidden;
   background: #ffbe52;
   padding: 0 15px;
@@ -610,7 +605,7 @@ width: 80%;
   background: url(../images/specialdetailsp.jpg);
   background-position: center;
   background-size: cover;
-  min-height: 55vh;
+  height: 480px;
   text-align: center;
   color: white;
   padding: 40px 10px 50px 10px;
@@ -632,7 +627,7 @@ width: 80%;
 
 /* message */
 .message {
-  min-height: 112vh;
+  height: 940px;
   background: white;
   padding: 0 15px;
 }
@@ -654,7 +649,7 @@ width: 80%;
 
 /* contactform */
 .contactform {
-  min-height: 79vh;
+  height: 640px;
   background: #ffbe52;
   text-align: center;
   overflow: hidden;
@@ -683,7 +678,7 @@ width: 80%;
 
 /* questions */
 .questions {
-  min-height: 105vh;
+  height: 850px;
   padding: 0 20px;
 }
 .questions-title {
@@ -711,7 +706,7 @@ width: 80%;
   /* top-bg */
   .top-bg {
     background: url(../images/main.jpg) center/cover;
-    min-height: 66vh;
+    height: 500px;
     margin-top: 6.4rem;
   }
   .top-main-box .txtl {
@@ -719,9 +714,12 @@ width: 80%;
     font-size: 3rem;
     line-height: 2;
   }
+  .top-main-isara-title, .top-main-isara-site-name {
+    font-size: 2rem;
+  }
   .top-main-box img {
-    height: 15vh;
-    width: 40vh;
+    height: 100px;
+    width: 300px;
     margin-top: -5px;
   }
 
@@ -730,6 +728,7 @@ width: 80%;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    height: 570px;
   }
   .isara-info p {
     font-size: 2rem;
@@ -753,7 +752,7 @@ width: 80%;
   .introduction {
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+    height: 570px;
   }
   .introduction .wrapper {
     width: 65%;
