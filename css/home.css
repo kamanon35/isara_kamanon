@@ -225,19 +225,14 @@
   letter-spacing: .1rem;
 }
 .isaralearning-description-container {
-  display: grid;
+  display: flex;
   justify-content: center;
-  grid-template-columns: repeat(4, 1fr);
   width: 80%;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 .isaralearning-description-container img {
-  margin-top: 20px;
   height: 60px;
-}
-.isaralearning .txts {
-  font-size: 1.2rem;
-  margin-top: 20px;
+  margin: 0 5px 0 5px;
 }
 
 /* merit */
@@ -822,7 +817,7 @@
   }
   .aboutsecond-description-box {
     padding: 20px 20px 30px 20px;
-    margin-right: 20px;
+    margin: 0 10px 0 10px;
     height: 180px;
     width: 360px;
   }
@@ -844,6 +839,10 @@
 
   /* isaralearning */
   .isaralearning {
-    height: 500px;
+    height: 480px;
+  }
+  .isaralearning-description-container img {
+    height: 180px;
+    margin: 0 20px 20px 20px;
   }
 }
