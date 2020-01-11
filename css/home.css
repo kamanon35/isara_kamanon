@@ -280,23 +280,21 @@
   background: url(../images/actuallyfree.jpg) center/cover;
 }
 .merit .container {
-  height: 25vh;
+  min-height: 1px;
   margin-top: 30px;
+  padding: 20px 12px;
   text-align: center;
 }
 .merit .container .yellowtxt {
-  margin-top: 15px;
   font-size: 1.8rem;
 }
 .merit .container .txtl {
   margin-top: 15px;
-  padding: 0 10px;
 }
 .merit-description {
-  font-size: 1.1rem;
-  letter-spacing: .1;
-  padding: 0 10px;
+  font-size: 1.0rem;
   margin-top: 10px;
+  font-weight: bold;
 }
 .meritbottom {
   text-align: center;
@@ -451,9 +449,11 @@
   color: white;
 }
 .learnable-detail .container {
-  min-height: 30vh;
+  min-height: 1px;
+  border: 2px solid #016ea9;
+}
+.learnable-detail .container .txtl {
   background: #016ea9;
-  padding: 0 3px;
 }
 .learnable-detail .container .txtl {
   color: white;
@@ -844,5 +844,49 @@
   .isaralearning-description-container img {
     height: 180px;
     margin: 0 20px 20px 20px;
+  }
+
+  /* merit */
+  .merit {
+    height: 1020px;
+  }
+  .merit-title {
+    width: 65%;
+    margin: 50px auto 40px auto;
+  }
+  .merit-img-wrapper {
+    display: flex;
+  }
+  .merit-img {
+    height: 200px;
+  }
+  .merit-img-box {
+    width: 30%;
+    margin: 0 auto;
+  }
+  .learndetial > .yellowtxt{
+    text-align: left;
+  }
+  .learndetial .txts {
+    padding: 0;
+    font-size: 1.6rem;
+  }
+  .merit .container {
+    padding: 40px 20px 40px 20px;
+  }
+  .merit .container .yellowtxt {
+    font-size: 2.7rem;
+  }
+  .merit .container .txtl {
+    font-size: 2rem;
+  }
+  .merit-description {
+    font-size: 1.6rem;
+  }
+  .meritbottom {
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    width: 80%;
+    margin: 20px auto 0 auto;
   }
 }
