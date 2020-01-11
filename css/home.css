@@ -407,7 +407,7 @@
   margin: 30px 0 30px 0;
 }
 .corp-message-box {
-  height: 20vh;
+  height: 150px;
   display: flex;
   margin-bottom: 40px;
 }
@@ -423,6 +423,9 @@
   width: 70%;
   padding-left: 10px;
   text-align: left;
+}
+.corp-message-right > p {
+  color: rgb(119, 119, 119);
 }
 .corp-message-right > .txts {
   font-weight: normal;
@@ -932,12 +935,23 @@
 
   /* answer */
   .answer {
-    height: 1000px;
+    height: 1030px;
   }
   .answer > .txtl {
     font-size: 3rem;
   }
   .answer > .annotation {
     font-size: 1.4rem;
+  }
+  .corp-message-box {
+    height: 280px;
+    width: 800px;
+    margin: 0 auto;
+  }
+  .corp-message-right {
+    margin-left: 20px;
+  }
+  .corp-message-right .txtm {
+    margin-top: 20px;
   }
 }
