@@ -849,6 +849,13 @@
     width: 65%;
     margin: 50px auto 40px auto;
   }
+  .merit-title .txts {
+    font-size: 2rem;
+  }
+  .merit-title > h2 {
+    font-size: 3rem;
+    margin-top: 2px;
+  }
   .merit-img-wrapper {
     display: flex;
   }
@@ -913,5 +920,24 @@
   }
   .teacherbox p {
     top: -125px;
+  }
+
+  /* qa */
+  .qa {
+    height: 300px;
+  }
+  .qa .wrapper {
+    width: 65%;
+  }
+
+  /* answer */
+  .answer {
+    height: 1000px;
+  }
+  .answer > .txtl {
+    font-size: 3rem;
+  }
+  .answer > .annotation {
+    font-size: 1.4rem;
   }
 }
