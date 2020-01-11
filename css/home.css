@@ -449,9 +449,9 @@
 .learnable-detail > h2, .learnable-detail > .txts {
   color: white;
 }
-.learnable-detail .container {
-  min-height: 1px;
+.learnable-detail-box {
   border: 2px solid #016ea9;
+  height: 100%;
 }
 .learnable-detail .container .txtl {
   background: #016ea9;
@@ -476,12 +476,14 @@
 .learnable-detail-bottom {
   background: #016ea9;
   height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .learnable-detail-bottom .txtm {
   color: white;
   font-weight: bold;
-  text-align: center;
-  padding: 20px 0;
   letter-spacing: .2rem;
 }
 
@@ -954,4 +956,36 @@
   .corp-message-right .txtm {
     margin-top: 20px;
   }
+
+/* learnable-detail */
+  .learnable-detail {
+    background: url(../images/classbg.jpg);
+    background-size: cover;
+    height: 810px;
+  }
+  .learnable-detail .container {
+    display: flex;
+    justify-content: center;
+  }
+  .learnable-detail-box {
+    width: 30%;
+  }
+  .learnable-detail-left {
+    margin-right: 15px;
+  }
+  .learnable-detail-right {
+    margin: 0 0 0 15px;
+  }
+  .learnable-detail-box .txtl {
+    font-size: 2rem;
+  }
+  .learnable-detail-li-item {
+    font-size: 1.6rem;
+  }
+
+  /* learnable-detail-bottom */
+  .learnable-detail-bottom {
+    height: 130px;
+  }
+
 }
