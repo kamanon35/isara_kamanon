@@ -107,7 +107,6 @@
 .about-circle {
   background: #ffbe52;
   color: white;
-  font-size: 1.3rem;
 }
 .about-title {
   padding: 20px 0;
@@ -322,11 +321,10 @@
   margin-top: 45px;
 }
 .establishment-member .container {
-  min-height: 80vh;
   margin-top: 120px;
 }
 .teacherbox {
-  height: 30vh;
+  height: 240px;
   border: 3px white solid;
   padding: 0 8px;
 }
@@ -349,7 +347,7 @@
 .teacher-name {
   margin-top: 12px;
 }
-.establishment-member .txts {
+.teacherbox > .txts {
   font-weight: normal;
 }
 .teacher-description {
@@ -756,9 +754,6 @@
   .introduction .container p {
     font-size: 2.1rem;
   }
-  .about-circle {
-    font-size: 1.6rem;
-  }
 
   /* about */
   .about {
@@ -888,5 +883,35 @@
     letter-spacing: .1rem;
     width: 80%;
     margin: 20px auto 0 auto;
+  }
+
+  /* establishment-member */
+  .establishment-member {
+    background: url(../images/teacherbg.jpg) center/cover;
+    height: 1410px;
+  }
+  .establishment-member > h2 {
+    font-size: 3rem;
+  }
+  .establishment-member .container {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60%;
+  }
+  .teacherbox {
+    height: 400px;
+    padding: 0 40px;
+    margin-top: 50px;
+  }
+  .teacher-description {
+    letter-spacing: .18rem;
+  }
+  .teacherbox img {
+    height: 200px;
+    top: -130px;
+  }
+  .teacherbox p {
+    top: -125px;
   }
 }
