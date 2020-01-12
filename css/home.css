@@ -518,16 +518,18 @@
 }
 .consulting-details-txt {
   font-size: 1.2rem;
+  margin-bottom: 10px;
 }
 .consulting-details .txts {
   margin-bottom: 10px;
+  letter-spacing: .15rem;
 }
 .attending-flow-left {
   display: flex;
   align-items: center;
 }
 .attending-flow-left img {
-  height: 4.5vh;
+  height: 35px;
 }
 .attending-flow-left p {
   margin-left: 20px;
@@ -1006,16 +1008,43 @@
 
   /* attending-flow */
   .attending-flow {
-    height: 1500px;
+    height: 1670px;
   }
   .attending-flow-img-wrapper {
     display: block;
+    text-align: center;
     margin-bottom: 40px;
   }
   .attending-flow > h2 {
     font-size: 2.6rem;
   }
+  .attending-flow-box {
+    display: flex;
+    padding: 20px 20px 20px 40px;
+    margin-bottom: 0;
+  }
+  .attending-flow-box-top {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+  }
+  .attending-flow-left {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .attending-flow-left > img {
+    height: 100px;
+  }
   .attending-flow-box-bottom {
     display: block;
+    width: 90%;
+  }
+  .attending-flow-right {
+    display: none;
+  }
+  .attending-flow-left p {
+    margin-left: 0;
+    font-size: 1.7rem;
   }
 }

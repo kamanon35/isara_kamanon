@@ -154,6 +154,9 @@ li {
 .fwb {
   font-weight: bold;
 }
+.flow-left, .flow-right{
+  display: none;
+}
 
 /* header */
 header {
@@ -255,6 +258,19 @@ footer .container > p {
   }
   .txtm {
     font-size: 2rem;
+  }
+  .flow-left, .flow-right {
+    display: inline-block;
+    height: 64px;
+    width: 100%;
+    vertical-align: bottom;
+    background-position: center;
+  }
+  .flow-left{
+    background-image: url(../images/flowline1.png);
+  }
+  .flow-right{
+    background-image: url(../images/flowline2.png);
   }
 
   /* header */
