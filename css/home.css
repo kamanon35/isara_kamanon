@@ -489,22 +489,38 @@
 
 /* attending-flow */
 .attending-flow {
-  height: 480px;
+  min-height: 460px;
   background: white;
-  text-align: center;
-  padding: 0 10px;
+  padding: 0 10px 60px 10px;
+}
+.attending-flow-img-wrapper {
+  display: none;
 }
 .attending-flow > h2 {
+  text-align: center;
   padding: 50px 0;
 }
 .attending-flow-box {
-  height: 7vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  min-height: 1px;
   background: #f9efdb;
   padding: 7px 15px;
   margin-bottom: 5px;
+}
+.attending-flow-box-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.attending-flow-box-bottom {
+  margin-top: 20px;
+  padding: 0 8px 10px 8px;
+  display: none;
+}
+.consulting-details-txt {
+  font-size: 1.2rem;
+}
+.consulting-details .txts {
+  margin-bottom: 10px;
 }
 .attending-flow-left {
   display: flex;
@@ -957,7 +973,7 @@
     margin-top: 20px;
   }
 
-/* learnable-detail */
+  /* learnable-detail */
   .learnable-detail {
     background: url(../images/classbg.jpg);
     background-size: cover;
@@ -988,4 +1004,18 @@
     height: 130px;
   }
 
+  /* attending-flow */
+  .attending-flow {
+    height: 1500px;
+  }
+  .attending-flow-img-wrapper {
+    display: block;
+    margin-bottom: 40px;
+  }
+  .attending-flow > h2 {
+    font-size: 2.6rem;
+  }
+  .attending-flow-box-bottom {
+    display: block;
+  }
 }
