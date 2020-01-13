@@ -693,8 +693,9 @@
 
 /* questions */
 .questions {
-  height: 850px;
+  min-height: 1px;
   padding: 0 20px;
+  margin-bottom: 50px;
 }
 .questions-title {
   font-size: 2rem;
@@ -1113,5 +1114,74 @@
     font-weight: bold;
     font-size: 1.5rem;
     color: black;
+  }
+
+  /* not-volunteer */
+  .not-volunteer {
+    padding: 0 250px;
+  }
+  .not-volunteer-title {
+    font-size: 3rem;
+  }
+  .not-volunteer > .txts {
+    font-size: 2rem;
+  }
+  .not-volunteer-container > h2 {
+    font-size: 3rem;
+  }
+
+  /* message */
+  .message {
+    height: 550px;
+  }
+  .message .wrapper {
+    width: 900px;
+  }
+  .message > h2 {
+    font-size: 2.6rem;
+  }
+  .enjoy-nomad-life {
+    letter-spacing: .1rem;
+  }
+  .message .container {
+    flex-direction: row;
+    margin-top: 40px;
+  }
+  .message-left {
+    margin-right: 30px;
+    width: 70%;
+  }
+  .message-left img {
+    margin: 0;
+  }
+  .message .txtm {
+    font-size: 2rem;
+  }
+  .message-right > .txtm {
+    font-size: 1.5rem;
+  }
+
+  /* contactform */
+  .contactform .wrapper {
+    width: 800px;
+  }
+  .contactform > h2 {
+    font-size: 2.6rem;
+  }
+
+  /* questions */
+  .questions {
+  }
+  .questions-title {
+      font-size: 2.6rem;
+  }
+  .questions .wrapper {
+    width: 1000px;
+  }
+  .questions .panel {
+    padding: 20px 20px;
+  }
+  .questions .panel:hover {
+    text-decoration: underline;
   }
 }

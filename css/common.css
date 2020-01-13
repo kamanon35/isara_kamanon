@@ -232,6 +232,9 @@ footer .container > p {
 .producer {
   text-align: center;
   margin-top: 30px;
+  font-size: 1rem;
+  font-weight: normal;
+  letter-spacing: .15rem;
 }
 
 /* large screen */
