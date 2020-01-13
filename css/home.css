@@ -542,10 +542,10 @@
   background: url(../images/bangkokbgsp.jpg);
   background-position: right;
   background-size: cover;
-  height: 590px;
+  height: 450px;
   color: white;
   overflow: hidden;
-  padding: 0 90px;
+  padding: 0 30px;
 }
 .why-bangkok > h2 {
   margin-top: 50px;
@@ -590,12 +590,15 @@
   font-weight: bold;
   background: #ffbe52;
   position: relative;
-  top: 3vh;
+  top: 30px;
   margin: 20px 40px 0 40px;
 }
-.further-privilege-box {
+.further-privilege-box-sp {
   display: flex;
   padding: 20px 40px 20px 40px;
+}
+.further-privilege-box-lg {
+  display: none;
 }
 .privilege-circle {
   background: white;
@@ -1046,5 +1049,69 @@
   .attending-flow-left p {
     margin-left: 0;
     font-size: 1.7rem;
+  }
+
+  /* why-bangkok */
+  .why-bangkok {
+    background: url(../images/bangkokbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 80px 40px 100px;
+    height: 500px;
+  }
+  .why-bangkok > h2 {
+    text-align: left;
+  }
+  .why-bangkok-txts > .txts {
+    font-size: 2rem;
+  }
+  .why-bangkok > .txtl {
+    font-size: 2.2rem;
+    margin-top: 20px;
+  }
+
+  /* entry-privilege */
+  .entry-privilege {
+    padding: 0 90px;
+    height: 570px;
+  }
+  .entry-privilege > h2, .further-privilege {
+    font-size: 2.6rem;
+  }
+  .further-privilege {
+    top: 10px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .entry-privilege > .txts {
+    margin-bottom: 60px;
+  }
+  .entry-privilege .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .further-privilege-box-sp {
+    display: none;
+  }
+  .further-privilege-box-lg {
+    display: flex;
+    justify-content: center;
+  }
+  .privilege-circle {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    margin: 0 60px;
+    text-align: center;
+  }
+  .privilege-circle > .txth2 {
+    font-weight: bold;
+  }
+  .privilege-circle > .txts {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
   }
 }
