@@ -1048,7 +1048,7 @@
     display: none;
   }
   .attending-flow-left p {
-    margin-left: 0;
+    margin: 20px 0 0 0;
     font-size: 1.7rem;
   }
 
@@ -1173,7 +1173,7 @@
   .questions {
   }
   .questions-title {
-      font-size: 2.6rem;
+    font-size: 2.6rem;
   }
   .questions .wrapper {
     width: 1000px;
