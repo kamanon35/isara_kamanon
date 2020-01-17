@@ -150,12 +150,8 @@ li {
   font-weight: 200;
 }
 .panel {
-  padding: 5px 10px;
   border: 1px #ddd solid;
   min-height: 4rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   border-radius: 5px;
   margin-bottom: 5px;
 }

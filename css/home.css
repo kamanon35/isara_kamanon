@@ -711,9 +711,29 @@
 .questionslist .txtm {
   font-weight: bold;
 }
-.panel .fa-angle-down {
+.question-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+.question-title-right .fa-angle-down, .question-title-right .fa-angle-up {
   color: #e5e5e5;
   font-size: 2.5rem;
+}
+.question-description {
+  padding: 20px 20px 40px 20px;
+}
+.question-description > .txts {
+  letter-spacing: .1rem;
+}
+.question-description {
+  display: none;
+}
+
+/* pagetop */
+#pagetop {
+  display: none;
 }
 
 /* large screen */
@@ -1170,18 +1190,33 @@
   }
 
   /* questions */
-  .questions {
-  }
   .questions-title {
     font-size: 2.6rem;
   }
   .questions .wrapper {
     width: 1000px;
   }
-  .questions .panel {
-    padding: 20px 20px;
+  .question-container {
+    padding: 15px 10px;
   }
-  .questions .panel:hover {
+  .question-container:hover {
     text-decoration: underline;
+  }
+
+  /* pagetop */
+  #pagetop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 71.5px;
+    height: 72px;
+    background: #ececec;
+    cursor: pointer;
+    position: fixed;
+    bottom: 90px;
+    right: 50px;
+  }
+  #pagetop > .fa-angle-up {
+    font-size: 4rem;
   }
 }
