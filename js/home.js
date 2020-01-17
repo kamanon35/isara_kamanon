@@ -2,8 +2,20 @@ $(function(){
 
   // アコーディオン１つ目を開く
   $('.open').show();
+  $('#pagetop').hide();
 
-  $('.contactform-jump').click(function(){
+  var _scrollValueDisplayPagetop = 100;
+
+// 一番上に戻るボタンを表示
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > _scrollValueDisplayPagetop) {
+        $('#pagetop').fadeIn();
+    } else {
+        $('#pagetop').fadeOut();
+    }
+});
+
+  $('.contactform-jump a').click(function(){
 
     var headerHeight = $('header').height();
     var id = $(this).attr('href');

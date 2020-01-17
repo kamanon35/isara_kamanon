@@ -191,21 +191,23 @@ header {
   height: 100%;
   width: 20%;
   background: #da6b64;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
 }
 .header-right-small-screen img {
   width: 25px;
   height: 25px;
-  align-self: center;
+  margin-bottom: 2px;
 }
 .header-right-small-screen a {
-  display: inline-block;
-  align-self: center;
+  display: block;
   color: white;
   font-size: 1.2rem;
   font-weight: normal;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .header-right-large-screen {
   display: none;
