@@ -49,7 +49,8 @@ $(function(){
 
   // 一番上に戻るボタン
   $('#pagetop').click(function(){
-    $('body, html').animate({ scrollTop: 0 }, 500); //0.5秒かけてトップへ戻る
+    var topReturnSpeed = 500;
+    $('body, html').animate({ scrollTop: 0 }, topReturnSpeed); //0.5秒かけてトップへ戻る
     return false;
   });
 
